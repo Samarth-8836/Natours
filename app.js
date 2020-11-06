@@ -10,7 +10,6 @@ app.use(express.json());
 app.use(morgan('dev'));
 
 app.use((req, res, next) => {
-  console.log('hello from the middleware');
   req.requestTime = new Date().toISOString();
   next();
 });
