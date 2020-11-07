@@ -1,7 +1,8 @@
 const express = require('express');
+
 const router = express.Router();
 
-const tourController = require('./../controllers/tourController');
+const tourController = require('../controllers/tourController');
 // READ TOUR FILE
 
 router
